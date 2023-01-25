@@ -3,23 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-
-  <title>Odd Duck Products</title>
-  <link rel="stylesheet" href="reset.css" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <h2>Odd Duck Products</h2>
-    <p>Click on the random photo that you like the most.</p>
-  </header>
-    <main>
-      <section id="productContainer">
-      </section>
-
-    </main>
-
-  <script src="app.js"></script>
-</body>
-</html>
+      <title>Odd Duck Products</title>
+      <link rel="stylesheet" href="css/reset.css" />
+      <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+      <header>
+        <h2>Odd Duck Products</h2>
+        <p>Please Click on the random photo that you like the most.</p>
+      </header>
+        <main>
+          <div id="clicksDiv">
+            <p class="pClicks">Clicks Remaining: <a id="clicks">25</a></p>
+          </div>
+          <section id="imgContainer">
+            <img id="imgOne" onClick="onClick()" src="" alt="" title="" class="img">
+            <img id="imgTwo" onClick="onClick()" src="" alt="" title="" class="img">
+            <img id="imgThree" onClick="onClick()" src="" alt="" title="" class="img">
+          </section>
+        </main>
+        <div id="chartDiv">
+          <canvas id="myChart"></canvas>
+        </div>
+      <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js"></script>
+      <script src="app.js"></script>
+    </body>
+    </html>
