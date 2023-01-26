@@ -1,7 +1,7 @@
 body {
     max-width: 1000px;
     margin: auto;
-    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-family:Arial, Helvetica, sans-serif
   }
   
   header {
@@ -33,7 +33,7 @@ body {
   
   .pClicks {
     border: 2px solid black;
-    background-color: rgb(236, 177, 156);
+    background-color: rgba(223, 153, 169, 0.859);
     border-radius: 5px;
     max-width: fit-content;
     padding: 10px 0 10px 10px;
@@ -43,7 +43,7 @@ body {
   #clicks {
     font-weight: 700;
     font-size: 18px;
-    color: rgb(224, 150, 123);
+    color: rgb(171, 83, 51);
     background-color: rgb(255, 255, 255);
     border-radius: 3px;
     padding: 8.75px;
@@ -72,8 +72,8 @@ body {
   }
   
   .img:hover {
-    border: 3px solid rgb(224, 150, 123);
-    box-shadow: 1px 1px 20px #696969;
+    border: 3px solid rgb(115, 55, 34);
+    box-shadow: 1px 1px 20px #684c2d;
   }
   
   #chartDiv {
